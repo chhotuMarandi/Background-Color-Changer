@@ -43,6 +43,7 @@ ul, h4 {
 
 .content h1 {
     background-color: #f1f5f8;
+    border: 0.2rem solid black;
     color: black;
     padding: 1rem 1.5rem;
     border-radius: .5rem;
@@ -53,14 +54,15 @@ ul, h4 {
 button {
     font-size: 1.3rem;
     background-color: transparent;
-    border: 0.2rem solid #f1f5f8;
-    color: #f1f5f8;
+    border: 0.2rem solid black;
+    color: black;
     padding: 0.5em 1em;
     border-radius: .5rem;
-    text-transform: uppercase;   
+    text-transform: uppercase;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
 }
 
 button:hover {
-    color: black;
-    background-color: #f1f5f8;
+    color: #f1f5f8;
+    background-color: black;
 }
