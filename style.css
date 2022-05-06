@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #236a96;
+  margin: 0;
+  padding: 0;
+}
+
+ul, h4 {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    font-size: 1.3rem;
+    color: white;
+    text-decoration: none;
+    margin: 1rem;
+}
