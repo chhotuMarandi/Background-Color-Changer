@@ -2,6 +2,7 @@ body {
     margin: 0;
     height: 100vh;
     background-color: #f1f5f8;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 nav {
@@ -12,6 +13,7 @@ nav {
   margin: 0;
   padding: 0;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #00a1c9;
 }
 
 ul, h4 {
@@ -67,4 +69,13 @@ button {
 button:hover {
     color: #f1f5f8;
     background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #666666;
+}
+
+a:hover {
+    color: #00a1c9;
 }
